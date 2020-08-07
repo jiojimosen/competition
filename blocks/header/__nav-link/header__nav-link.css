@@ -1,0 +1,27 @@
+.header__nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: opacity ease-in-out 0.3s;
+}
+
+.header__nav-link:hover {
+    opacity: 0.6;
+}
+
+@media (max-width: 1172px) {
+    .header__nav-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 955px) {
+    .header__nav-link {
+        font-size: 12px;
+    }
+}
+@media (max-width: 810px) {
+    .header__nav-link {
+        font-size: 10px;
+    }
+}

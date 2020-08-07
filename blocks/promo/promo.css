@@ -1,0 +1,29 @@
+@import url(__title/promo__title.css);
+@import url(__button/promo__button.css);
+@import url(__content/promo__content.css);
+
+.promo {
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(../../images/bg-big.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+    .promo {
+        min-height: auto;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 380px) {
+    .promo {
+        padding: 20px;
+    }
+}

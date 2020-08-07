@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Конкурс</title>
+  <link href="./pages/index.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__content">
+                <img class="header__logo" src="images/logo.svg" alt="Лого" />
+                <ul class="header__nav">
+                    <li class="header__nav-item"><a class="header__nav-link" href="#promo">Информация</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">Регистрация</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">История</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">Поддержка СМИ</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">Партнеры</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="">Контакты</a></li>
+                </ul>
+                <div class="menu">
+                    <a class="menu-triger" href="#">
+                        <svg class="ham hamRotate180 ham5" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                            <path
+                                  class="line top"
+                                  d="m 30,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429" />
+                            <path
+                                  class="line middle"
+                                  d="m 70,50 h -40" />
+                            <path
+                                  class="line bottom"
+                                  d="m 30,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429" />
+                        </svg>
+                    </a>
+                    <div class="menu-popup">
+                        <!--<a class="menu-close" href="#"></a>-->
+                        <ul>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#promo">Информация</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="">Регистрация</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="">История</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="">Поддержка СМИ</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="">Партнеры</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="">Контакты</a></li>
+                        </ul>						
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="counter"></section>
+
+        <section id="promo" class="promo">
+            <h1 class="promo__title">Конкурс профессионального мастерства<br /> "Московские мастера"<br /> по профессии «Психолог»</h1>
+            <a class="promo__button" href="">Подробнее</a>
+            <p class="promo__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at leo vulputate, vestibulum sapien fringilla, vehicula risus. Vivamus sagittis libero ac lorem aliquam, eu interdum tortor condimentum. Nulla posuere dui vel vulputate suscipit. Praesent finibus dolor a rutrum iaculis. Nulla facilisi. Fusce mattis mauris sed mi ultrices euismod. Vestibulum eget mattis arcu. In accumsan rhoncus lectus vel iaculis.</p>
+        </section>
+
+        <main class="info"></main>
+
+        <section class="history"></section>
+
+        <section class="media"></section>
+
+        <section class="partners"></section>
+
+        <footer class="footer"></footer>
+    </div>
+
+    <script>
+        $(function() {
+	var $menu_popup = $('.menu-popup');
+	
+	$(".menu-triger, .menu-close").click(function(){
+		$menu_popup.slideToggle(300, function(){
+			if ($menu_popup.is(':hidden')) {
+				$('body').removeClass('body_pointer');
+			} else {
+				$('body').addClass('body_pointer');
+			}					
+		});  
+		return false;
+	});			
+	
+	$(document).on('click', function(e){
+		if (!$(e.target).closest('.menu').length){
+			$('body').removeClass('body_pointer');
+			$menu_popup.slideUp(300);
+		}
+	});
+
+    $(document).on('click', function(e){
+		if (!$(e.target).closest('.menu').length){
+			$('svg').removeClass('active');
+			//$menu_popup.slideUp(300);
+		}
+	});
+});
+    </script>
+
+</body>
+</html>
