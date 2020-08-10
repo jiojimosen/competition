@@ -1,0 +1,125 @@
+.counter {
+	display: flex;
+	align-items: center;
+	color: #696969;
+}
+
+.unit {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.unit:first-child {
+	margin-left: 0;
+}
+
+.unit:last-child {
+	margin-right: 0;
+}
+
+.days_text {
+	width: 100%;
+	margin: 0;
+	margin-top: 10px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 36px;
+	text-align: center;
+	border: 1px solid #ABABAB;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+	background-color: #fff;
+
+}
+
+.hours_text {
+	width: 100%;
+	margin: 0;
+	margin-top: 10px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 36px;
+	text-align: center;
+	border: 1px solid #ABABAB;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+	background-color: #fff;
+}
+
+.minutes_text {
+	width: 100%;
+	margin: 0;
+	margin-top: 10px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 36px;
+	text-align: center;
+	border: 1px solid #ABABAB;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+	background-color: #fff;
+}
+
+.seconds_text {
+	width: 100%;
+	margin: 0;
+	margin-top: 10px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 36px;
+	text-align: center;
+	border: 1px solid #ABABAB;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+	background-color: #fff;
+}
+
+.days {
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 36px;
+	padding: 20px 10px;
+	border: 1px solid #ababab;
+	border-radius: 12px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+}
+
+.hours {
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 36px;
+	padding: 20px 10px;
+	border: 1px solid #ababab;
+	border-radius: 12px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+}
+
+.minutes {
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 36px;
+	padding: 20px 10px;
+	border: 1px solid #ababab;
+	border-radius: 12px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+}
+
+.seconds {
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 36px;
+	padding: 20px 10px;
+	border: 1px solid #ababab;
+	border-radius: 12px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+}

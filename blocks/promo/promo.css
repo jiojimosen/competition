@@ -7,12 +7,13 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-end;
     background-image: url(../../images/bg-big.jpg);
     background-size: cover;
     background-position: center;
     padding: 0 40px;
+    margin-top: 100px
 }
 
 @media (max-width: 768px) {

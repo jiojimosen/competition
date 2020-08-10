@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+@import url(../vendor/normalize.css);
 @import url(../vendor/menu/menu.css);
 @import url(../vendor/ham/ham.css);
+@import url(../vendor/count/count.css);
 
-@import url(../vendor/normalize.css);
+
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/counter/counter.css);
