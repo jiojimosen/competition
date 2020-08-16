@@ -9,18 +9,18 @@
     opacity: 0.6;
 }
 
-@media (max-width: 1172px) {
+@media (max-width: 1070px) {
     .header__nav-link {
         font-size: 14px;
     }
 }
 
-@media (max-width: 955px) {
+@media (max-width: 1003px) {
     .header__nav-link {
         font-size: 12px;
     }
 }
-@media (max-width: 810px) {
+@media (max-width: 847px) {
     .header__nav-link {
         font-size: 10px;
     }

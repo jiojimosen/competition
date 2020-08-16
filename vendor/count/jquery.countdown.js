@@ -9,13 +9,13 @@
 		var settings = $.extend({
 			date: null,
 			offset: null,
-			day: 'день',
+			day: 'дней',
 			days: 'дней',
-			hour: 'час',
+			hour: 'часов',
 			hours: 'часов',
-			minute: 'минута',
+			minute: 'минут',
 			minutes: 'минут',
-			second: 'секунда',
+			second: 'секунд',
 			seconds: 'секунд',
 			hideOnComplete: false
 		}, options);

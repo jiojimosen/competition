@@ -1,7 +1,8 @@
 @import url(__promo/wrapper__promo.css);
+@import url(__info/wrapper__info.css);
 
 .wrapper {
-    width: 100%;
+    max-width: 1920px;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }

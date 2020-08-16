@@ -1,0 +1,9 @@
+.info__block-part {
+    padding: 20px;
+}
+
+@media(max-width: 619px) {
+    .info__block-part {
+        padding: 10px 20px;
+    }
+}

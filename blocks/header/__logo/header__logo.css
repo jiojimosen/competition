@@ -13,3 +13,9 @@
         height: 30px;
     }
 }
+
+@media (max-width: 370px) {
+    .header__logo {
+        height: 25px;
+    }
+}

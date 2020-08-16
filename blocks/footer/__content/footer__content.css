@@ -1,0 +1,6 @@
+.footer__content {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+}

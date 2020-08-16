@@ -48,7 +48,11 @@
 	cursor: pointer;
 }
 
-@media (min-width: 769px) {
+.menu {
+	margin-right: -15px;
+}
+
+@media (min-width: 780px) {
     .menu {
         display: none;
     }
