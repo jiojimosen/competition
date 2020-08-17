@@ -11,6 +11,8 @@
 @import url(__line/info__line.css);
 @import url(__block-date/info__block-date.css);
 @import url(__block-link/info__block-link.css);
+@import url(__block-paragraph/_alert/info__block-paragraph_alert.css);
+@import url(__button/info__button.css);
 
 .info {
     max-width: 1280px;

@@ -5,6 +5,7 @@
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 @media (max-width: 1320px) {
