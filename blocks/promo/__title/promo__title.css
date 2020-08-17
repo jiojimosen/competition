@@ -10,7 +10,7 @@
 @media (max-width: 768px) {
     .promo__title {
         height: auto;
-        padding-top: 80px;
+        /*padding-top: 80px;*/
         font-size: 42px;
         line-height: 56px;
     }

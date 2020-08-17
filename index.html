@@ -19,7 +19,8 @@
                 <a href="#home"><img class="header__logo" src="images/logo-img.svg" alt="Лого" /></a>
                 <ul class="header__nav">
                     <li class="header__nav-item"><a class="header__nav-link" href="#home"><i class="fas fa-home"></i></a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#info">Регистрация</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#start">Отборочный этап</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#final">Финальный этап</a></li>
                     <li class="header__nav-item"><a class="header__nav-link" href="#history">История</a></li>
                     <li class="header__nav-item"><a class="header__nav-link" href="#contacts">Информация</a></li>
                     <!--<li class="header__nav-item"><a class="header__nav-link" href="">Поддержка СМИ</a></li>
@@ -43,7 +44,8 @@
                     <div class="menu-popup">
                         <ul>
                             <li class="header__nav-item"><a class="header__nav-link" href="#home"><i class="fas fa-home"></i></a></li>
-                            <li class="header__nav-item"><a class="header__nav-link" href="#info">Регистрация</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#start">Отборочный этап</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#final">Финальный этап</a></li>
                             <li class="header__nav-item"><a class="header__nav-link" href="#history">История</a></li>
                             <li class="header__nav-item"><a class="header__nav-link" href="#contacts">Информация</a></li>
                             <!--<li class="header__nav-item"><a class="header__nav-link" href="">Поддержка СМИ</a></li>
@@ -75,7 +77,7 @@
 
         <main id="info" class="info wrapper__info">
             
-            <section class="info__block">
+            <section id="start" class="info__block">
                 <img class="info__block-image" src="./images/start.svg" alt="Старт" /> 
                 <div class="info__block-content">
                     <h2 class="info__block-title">Отборочный этап<span class="info__block-bage">онлайн</span></h2>
@@ -100,7 +102,7 @@
 
             <hr class="info__line">
 
-            <section class="info__block info__block_order-back">
+            <section id="final" class="info__block info__block_order-back">
                 <img class="info__block-image" src="./images/final.svg" alt="Финал" /> 
                 <div class="info__block-content">
                     <h2 class="info__block-title">Финальный этап</h2>
@@ -139,11 +141,30 @@
             </div>
         </section>
 
-        <section class="media"></section>
+        <!--<section class="media"></section>
 
-        <section class="partners"></section>
+        <section class="partners"></section>-->
 
-        <section id="contacts" class="contacts"></section>
+        <section id="contacts" class="info__block">
+            <img class="info__block-image" src="./images/start.svg" alt="Старт" /> 
+            <div class="info__block-content">
+                <h2 class="info__block-title">Информация</h2>
+                <div class="info__block-area">
+                    <div class="info__block-part">
+                        <p class="info__block-subtitle">Контакты</p>
+                        <p class="info__block-paragraph info__block-paragraph_info"><i class="fas fa-envelope-open fa-2x" style="padding-right: 20px; opacity: 0.7;"></i>konkurs@msph.ru</p>
+                        <p class="info__block-paragraph info__block-paragraph_info"><i class="fas fa-phone fa-2x" style="padding-right: 20px; opacity: 0.7;"></i>+7 (499) 796-25-10</p>
+                        <p class="info__block-paragraph info__block-paragraph_info" style="padding-left: 58px;">+7 (499) 177-73-65</p>
+                    </div>
+                    <div class="info__block-part">
+                        <p class="info__block-subtitle">Конкурс</p>
+                        <a class="info__block-link" href="./media/docs/condition.pdf" target="_blank">Приказ Департамента труда и социальной защиты города Москвы №318к от 04 марта 2020 года "О проведении конкурса профессионального мастерства "Московские мастера" по профессии "Психолог""</a>
+                        <a class="info__block-link" href="./media/docs/condition.pdf" target="_blank"></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <footer class="footer">
             <div class="footer__content">

@@ -13,6 +13,7 @@
 @import url(__block-link/info__block-link.css);
 @import url(__block-paragraph/_alert/info__block-paragraph_alert.css);
 @import url(__button/info__button.css);
+@import url(__block-paragraph/_info/info__block-paragraph_info.css);
 
 .info {
     max-width: 1280px;
