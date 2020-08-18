@@ -13,16 +13,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 </head>
 <body>
-    <div id="home" class="wrapper">
+    <div id="_home" class="wrapper">
         <header class="header">
             <div class="header__content">
                 <a href="#home"><img class="header__logo" src="images/logo-img.svg" alt="Лого" /></a>
                 <ul class="header__nav">
-                    <li class="header__nav-item"><a class="header__nav-link" href="#home"><i class="fas fa-home"></i></a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#start">Отборочный этап</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#final">Финальный этап</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#history">История</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#contacts">Информация</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_home"><i class="fas fa-home"></i></a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_start">Отборочный этап</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_final">Финальный этап</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_history">История</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#_contacts">Информация</a></li>
                     <!--<li class="header__nav-item"><a class="header__nav-link" href="">Поддержка СМИ</a></li>
                     <li class="header__nav-item"><a class="header__nav-link" href="">Партнеры</a></li>
                     <li class="header__nav-item"><a class="header__nav-link" href="">Контакты</a></li>-->
@@ -43,11 +43,11 @@
                     </a>
                     <div class="menu-popup">
                         <ul>
-                            <li class="header__nav-item"><a class="header__nav-link" href="#home"><i class="fas fa-home"></i></a></li>
-                            <li class="header__nav-item"><a class="header__nav-link" href="#start">Отборочный этап</a></li>
-                            <li class="header__nav-item"><a class="header__nav-link" href="#final">Финальный этап</a></li>
-                            <li class="header__nav-item"><a class="header__nav-link" href="#history">История</a></li>
-                            <li class="header__nav-item"><a class="header__nav-link" href="#contacts">Информация</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_home"><i class="fas fa-home"></i></a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_start">Отборочный этап</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_final">Финальный этап</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_history">История</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#_contacts">Информация</a></li>
                             <!--<li class="header__nav-item"><a class="header__nav-link" href="">Поддержка СМИ</a></li>
                             <li class="header__nav-item"><a class="header__nav-link" href="">Партнеры</a></li>
                             <li class="header__nav-item"><a class="header__nav-link" href="">Контакты</a></li>-->
@@ -57,7 +57,7 @@
             </div>
         </header>
 
-        <section id="promo" class="promo">
+        <section id="_promo" class="promo">
             <div class="promo__content">
                 <div class="counter">
                     <ul id="example" class="counter">
@@ -77,7 +77,7 @@
 
         <main id="info" class="info wrapper__info">
             
-            <section id="start" class="info__block">
+            <section id="_start" class="info__block">
                 <img class="info__block-image" src="./images/start.svg" alt="Старт" /> 
                 <div class="info__block-content">
                     <h2 class="info__block-title">Отборочный этап<span class="info__block-bage">онлайн</span></h2>
@@ -102,7 +102,7 @@
 
             <hr class="info__line">
 
-            <section id="final" class="info__block info__block_order-back">
+            <section id="_final" class="info__block info__block_order-back">
                 <img class="info__block-image" src="./images/final.svg" alt="Финал" /> 
                 <div class="info__block-content">
                     <h2 class="info__block-title">Финальный этап</h2>
@@ -126,7 +126,7 @@
 
         </main>
 
-        <section id="history" class="history">
+        <section id="_history" class="history">
             <div class="history__card">
                 <h2 class="history__card-title">Конкурс 2019</h2>
                     <div class="gallery">
@@ -145,7 +145,7 @@
 
         <section class="partners"></section>-->
 
-        <section id="contacts" class="info__block">
+        <section id="_contacts" class="info__block">
             <img class="info__block-image" src="./images/info.svg" alt="Инфо" /> 
             <div class="info__block-content">
                 <h2 class="info__block-title">Информация</h2>
@@ -158,8 +158,9 @@
                     </div>
                     <div class="info__block-part">
                         <p class="info__block-subtitle">Конкурс</p>
-                        <a class="info__block-link" href="./media/docs/condition.pdf" target="_blank">Приказ Департамента труда и социальной защиты города Москвы №318к от 04 марта 2020 года "О проведении конкурса профессионального мастерства "Московские мастера" по профессии "Психолог""</a>
-                        <a class="info__block-link" href="./media/docs/condition.pdf" target="_blank"></a>
+                        <a class="info__block-link info__block-link_space" href="#content" rel="modal:open">Организационный комитет Конкурса</a>
+                        <a class="info__block-link info__block-link_space" href="./media/docs/order.pdf" target="_blank">Приказ Департамента труда и социальной защиты города Москвы №318к от 04 марта 2020 года "О проведении конкурса профессионального мастерства "Московские мастера" по профессии "Психолог""</a>
+                        <a class="info__block-link" href="./media/docs/condition.pdf" target="_blank">Положение о проведении конкурса профессионального мастерства "Московские мастера" по профессии "Психолог"</a>
                         
                     </div>
                 </div>
@@ -172,6 +173,34 @@
                 <p class="footer__copy">&copy; 2020, Государственное бюджетное учреждение «Московская служба психологической помощи населению» Департамента труда и социальной защиты населения города Москвы</p>
             </div>
         </footer>
+    </div>
+
+    <!--Some Texts-->
+    <!--First-->
+    <div id="promo-more" class="modal">
+        <p class="promo__modal-paragraph">В Москве состоится ежегодный конкурс, направленный на повышение престижа профессии и мастерства психологов, распространение передового опыта и методов работы в области психологии среди специалистов в организациях столицы.</p> 
+        <p class="promo__modal-paragraph">Проведения конкурса обусловлено увеличением важности работы психологов с жителями столицы по самым различным проблемам, с которыми можно столкнуться в мегаполисе: стрессы, отношения в семье, отсутствие взаимопонимания, тревога, страхи и т.д. К сожалению, в сознании людей есть предубеждения к обращению к профессиональным психологам и недоверие к ним. Поэтому организаторы поставили себе цель сформировать позитивное общественное мнение в отношении работы психологов, чтобы москвичи не боялись прийти на консультацию и обсудить интересующие вопросы с профессионалом, помогающим найти решение из сложной жизненной ситуации.</p>
+        <p class="promo__modal-paragraph">Участником конкурса может стать любой психолог из организации Москвы со стажем работы по специальности не менее 2 лет, подавший заявку в отраслевой или территориальный орган исполнительной власти столицы на фирменном бланке организации, в которой он осуществляет свою профессиональную деятельность. В заявке необходимо указать ФИО, место работы, дату рождения, место жительства, сведения об образовании и повышении квалификации, стаж работы общий и в должности психолога.</p> 
+        <p class="promo__modal-paragraph">В августе победителей и призеров отборочного этапа конкурса будут ожидать новые задания в финальном соревновании, по итогам которого будет составлен рейтинг 10 лучших психологов города Москвы.</p>
+        <p class="promo__modal-paragraph promo__modal-paragraph_italic">Председателем Организационного комитета конкурса выступит первый заместитель руководителя Департамента труда и социальной защиты населения города Москвы Ольга Евгеньевна Грачева. Также в комиссию входят представители Департамента образования города Москвы, Департамента здравоохранения города Москвы, директор ГБУ «Московская служба психологической помощи населению» Нина Алексеевна Петроченко и руководители нескольких учреждений социальной защиты населения города Москвы.</p>
+        <p class="promo__modal-paragraph promo__modal-paragraph_italic">Организаторами финального этапа конкурса являются Департамент труда и социальной защиты населения города Москвы, Московская Федерация профсоюзов и Московская Конфедерация промышленников и предпринимателей (работодателей).</p>
+    </div>
+
+    <!--Second-->
+    <div id="content" class="modal">
+        <p class="promo__modal-paragraph">Грачева О.Е. – первый заместитель руководителя Департамента труда и социальной защиты населения города Москвы, председатель организационного комитета
+        <p class="promo__modal-paragraph">Петроченко Н.А. – директор ГБУ МСППН Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Михайличенко Г.И. – директор ГБУ ПВВ «Коньково» Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Овсянников С.П. – начальник Управления государственной службы, кадровой и правовой работы Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Сокорева И.Е. – начальник Управления кадровой политики и образования Департамента здравоохранения города Москвы 
+        <p class="promo__modal-paragraph">Чернов Никита Владимирович – заведующий отделением психотерапевтической помощи и социальной реабилитации ГКБ №1 им. Н.А. Алексеева
+        <p class="promo__modal-paragraph">Паршина Наталья Леонидовна – начальник отдела по взаимодействию с общественностью ГБУ «Городской психолого-педагогический центр» Департамента образования города Москвы 
+        <p class="promo__modal-paragraph">Сырникова Б.А. – директор ГБУ «Научно-практический реабилитационный центр» Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Меньшов В.А. – директор ГБУ ЦССВ «Наш дом» Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Понамарева И.Н. – директор ГБУ ЦСПСиД САО г. Москвы Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Еремичев А.В. – заместитель директора ГБУ МСППН Департамента труда и социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Сытникова Г.В. – председатель Территориальной Профсоюзной Организации учреждений социальной защиты населения города Москвы
+        <p class="promo__modal-paragraph">Соколова И.В. – начальник отдела проектного менеджмента ГБУ МСППН, секретарь организационного комитета 
     </div>
 
     <script>
@@ -227,7 +256,7 @@
     </script>
 
     <script>
-        $('a[href*="#"]')
+        $('a[href*="#_"]')
         .not('[href="#"]')
         .not('[href="#0"]')
         .click(function(event) {
@@ -250,19 +279,6 @@
         });
     </script>
     <script src="./vendor/revelator/fm.revealator.jquery.js"></script>
-
-<!--Some Texts-->
-<!--First-->
-<div id="promo-more" class="modal">
-    <p class="promo__modal-paragraph">В Москве состоится ежегодный конкурс, направленный на повышение престижа профессии и мастерства психологов, распространение передового опыта и методов работы в области психологии среди специалистов в организациях столицы.</p> 
-    <p class="promo__modal-paragraph">Проведения конкурса обусловлено увеличением важности работы психологов с жителями столицы по самым различным проблемам, с которыми можно столкнуться в мегаполисе: стрессы, отношения в семье, отсутствие взаимопонимания, тревога, страхи и т.д. К сожалению, в сознании людей есть предубеждения к обращению к профессиональным психологам и недоверие к ним. Поэтому организаторы поставили себе цель сформировать позитивное общественное мнение в отношении работы психологов, чтобы москвичи не боялись прийти на консультацию и обсудить интересующие вопросы с профессионалом, помогающим найти решение из сложной жизненной ситуации.</p>
-    <p class="promo__modal-paragraph">Участником конкурса может стать любой психолог из организации Москвы со стажем работы по специальности не менее 2 лет, подавший заявку в отраслевой или территориальный орган исполнительной власти столицы на фирменном бланке организации, в которой он осуществляет свою профессиональную деятельность. В заявке необходимо указать ФИО, место работы, дату рождения, место жительства, сведения об образовании и повышении квалификации, стаж работы общий и в должности психолога.</p> 
-    <p class="promo__modal-paragraph">В августе победителей и призеров отборочного этапа конкурса будут ожидать новые задания в финальном соревновании, по итогам которого будет составлен рейтинг 10 лучших психологов города Москвы.</p>
-    
-    
-    <p class="promo__modal-paragraph promo__modal-paragraph_italic">Председателем Организационного комитета конкурса выступит первый заместитель руководителя Департамента труда и социальной защиты населения города Москвы Ольга Евгеньевна Грачева. Также в комиссию входят представители Департамента образования города Москвы, Департамента здравоохранения города Москвы, директор ГБУ «Московская служба психологической помощи населению» Нина Алексеевна Петроченко и руководители нескольких учреждений социальной защиты населения города Москвы.</p>
-    <p class="promo__modal-paragraph promo__modal-paragraph_italic">Организаторами финального этапа конкурса являются Департамент труда и социальной защиты населения города Москвы, Московская Федерация профсоюзов и Московская Конфедерация промышленников и предпринимателей (работодателей).</p>
-</div>
 
 </body>
 </html>
