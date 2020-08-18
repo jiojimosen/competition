@@ -1,0 +1,25 @@
+#totop {
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+}
+
+@media(max-width: 768px) {
+    #totop {
+        left: 20px;
+        bottom: 30px;
+    }
+}
+
+@media(max-width: 320px) {
+    #totop {
+        left: 10px;
+        bottom: 20px;
+    }
+}
+
+.totop {
+    width: 30px;
+    height: 30px;
+    opacity: 0.3;
+}
