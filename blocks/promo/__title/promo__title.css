@@ -5,6 +5,9 @@
     line-height: 64px;
     text-align: right;
     max-width: 768px;
+    color: #fff;
+    position: relative;
+    z-index: 9;
 }
 
 @media (max-width: 768px) {

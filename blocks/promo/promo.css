@@ -4,6 +4,7 @@
 @import url(__paragraph/promo__paragraph.css);
 @import url(__modal-paragraph/promo__modal-paragraph.css);
 @import url(__modal-paragraph/_italic/promo__modal-paragraph_italic.css);
+@import url(__overlay/promo__overlay.css);
 
 .promo {
     max-width: 100%;
@@ -11,14 +12,11 @@
     background-image: url(../../images/bg-big.jpg);
     background-size: cover;
     background-position: center;
-    padding-top: 1px;
 }
 
 @media (max-width: 1320px) {
 .promo {
     padding: 0 20px;
-    padding-top: 1px;
-    padding-bottom: 20px;
     }
 }
 
