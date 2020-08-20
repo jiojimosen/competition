@@ -15,7 +15,7 @@
         font-size: 16px;
     }
 }
-@media (max-width: 380px) {
+@media (max-width: 635px) {
     .info__button {
         font-size: 14px;
         margin: 20px 0;
