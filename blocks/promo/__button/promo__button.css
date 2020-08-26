@@ -11,7 +11,7 @@
                 color ease 0.3s;
     position: relative;
     z-index: 9;
-    margin: 20px 0;
+    /*margin: 20px 0;*/
 }
 
 @media (max-width: 768px) {
