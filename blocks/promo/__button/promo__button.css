@@ -10,7 +10,7 @@
     transition: background-color ease-in-out 0.3s,
                 color ease 0.3s;
     position: relative;
-    z-index: 9;
+    z-index: 1;
     /*margin: 20px 0;*/
 }
 
