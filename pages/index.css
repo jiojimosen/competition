@@ -5,9 +5,15 @@
 @import url(../vendor/count/count.css);
 @import url(../vendor/lightbox/css/lightbox.css);
 @import url(../vendor/modal/modal.css);
-@import url(../vendor/revelator/fm.revealator.jquery.css);
 @import url(../vendor/fontawesome5/all.css);
 @import url(../vendor/totop/totop.css);
+@import url(../vendor/animate/attention.css);
+@import url(../vendor/animate/bounce.css);
+@import url(../vendor/animate/fade.css);
+@import url(../vendor/animate/flip.css);
+@import url(../vendor/animate/rotate.css);
+@import url(../vendor/animate/slide.css);
+@import url(../vendor/animate/zoom.css);
 
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/header/header.css);
