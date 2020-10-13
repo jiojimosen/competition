@@ -1,5 +1,12 @@
+@import url(../partners/__block/partners__block.css);
+@import url(../partners/__item/partners__item.css);
+@import url(../partners/__image/partners__image.css);
+@import url(../partners/__title/partners__title.css);
+@import url(../partners/__paragraph/partners__paragraph.css);
+
 .partners {
     max-width: 1280px;
     margin: 0 auto;
     padding-top: 75px;
+    padding-bottom: 75px;
 }
