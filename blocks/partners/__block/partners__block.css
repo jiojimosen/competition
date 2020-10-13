@@ -4,3 +4,10 @@
     flex-wrap: wrap;
     align-items: flex-start;
 }
+
+@media (max-width: 430px) {
+    .partners__block {
+        align-content: center;
+        flex-direction: column;
+    }
+}
