@@ -1,0 +1,12 @@
+@import url(../persons/__block/persons__block.css);
+@import url(../persons/__image/persons__image.css);
+@import url(../persons/__item/persons__item.css);
+@import url(../persons/__subtitle/persons__subtitle.css);
+@import url(../persons/__title/persons__title.css);
+@import url(../persons/__block-title/persons__block-title.css);
+
+.persons {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 90px;
+}

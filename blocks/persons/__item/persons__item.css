@@ -1,0 +1,13 @@
+.persons__item {
+    max-width: 300px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+
+.persons__item:nth-child(5n + 5) {
+    margin-right: 0;
+}
