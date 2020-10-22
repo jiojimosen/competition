@@ -17,6 +17,7 @@
 @import url(__block-paragraph/_info/info__block-paragraph_info.css);
 @import url(__block-link/_space/info__block-link_space.css);
 @import url(__block-link/_space/info__block-link_space.css);
+@import url(__bage/info__bage.css);
 
 .info {
     max-width: 1280px;

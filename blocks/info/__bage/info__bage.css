@@ -1,0 +1,15 @@
+@import url(./_first/info__bage_first.css);
+@import url(./_second/info__bage_second.css);
+@import url(./_third/info__bage_third.css);
+
+.info__bage {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 78px;
+    position: absolute;
+    bottom: 160px;
+    right: 0;
+
+}
